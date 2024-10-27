@@ -27,7 +27,6 @@
         @apply flex gap-x-6 text-gray-600 text-[18px];
     }
 
-
     .sub-menu{
         @apply  flex flex-col  text-black rounded-md border-b-2 border-indigo-950 min-w-[150px]  absolute top-[5%] !important;
     }
@@ -47,7 +46,6 @@
         background: linear-gradient(130.08deg, #FFFFFF 0%, #6f38d7 100%);
         border-left: 5px solid #6f38d7;
     }
-
 
     #menu ul li {
        @apply transition duration-1000 ease-in-out py-[5px] px-0;
@@ -139,17 +137,9 @@
     }
 
     .page-title {
-
       
         background: linear-gradient(130deg, #ECF0F3 80%, #6f38d7 20%) !important;
      
-
-        background: linear-gradient(130deg, #ECF0F3 50%, #6f38d7 20%) !important;
-    }
-
-    .page-title {
-        background: linear-gradient(130deg, #6f38d7 20%, #ECF0F3 10%) !important;
-
     }
 
     .exp-project-skill-box {
@@ -354,4 +344,3 @@
         @apply flex justify-center items-center flex-col !important;
     }
 } */
-

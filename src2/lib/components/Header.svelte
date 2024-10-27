@@ -5,9 +5,7 @@
   const isHomePage = derived(page, ($page) => {
      return $page.url.pathname === '/';
   });
-
    let isOpen = $state(false);
-
 </script>
 
 <header  class:is-home-page={$isHomePage}>
@@ -27,7 +25,6 @@
                 </li>
                 <li>
                   <span>
-
                     <a href="/blogs" class="dropdown-toggle" onclick={() => {
                       isOpen=!isOpen;
                      }}>
@@ -41,12 +38,6 @@
                        </ul>
                      {/if} 
                     
-
-                    <a href="/blogs">
-                        Blogs
-                      </a> 
-           
-
                   </span>
                 </li>
                 <li>
